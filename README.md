@@ -1,4 +1,4 @@
-hexo-usergroups
+hexo-usergroup
 ===
 
 ## About ##
@@ -10,24 +10,24 @@ This tag adds data user groups commonly need to post about, like the meeting loc
 
 ## Example
 
-{% usergroups meeting | %}
+{% usergroup meeting|workshop|hackathon|conference | %}
 
-{% usergroups presentation |  %}
+{% usergroup presentation |  %}
 
-{% usergroups location | %}
+{% usergroup location | %}
 
 <!-- read more -->
 
-{% usergroups speaker | %}
+{% usergroup speaker | %}
 
-{% usergroups sponsor | %}
+{% usergroup sponsor | %}
 
-{% usergroups google-maps | %} <!-- tag by the-simian --> 
+{% usergroup google-maps | %} <!-- tag by the-simian --> 
 
-{% usergroups social | %}
+{% usergroup social | %}
 
-{% usergroups contact |  %}
+{% usergroup contact |  %}
 
-<!-- ![Example image of hexo tag for usergroups](#) -->
+<!-- ![Example image of hexo tag for usergroup data](#) -->
 
 
