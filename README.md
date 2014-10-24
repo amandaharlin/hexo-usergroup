@@ -3,7 +3,7 @@ hexo-usergroups
 
 ## About ##
 
-This tag adds typical data like the tech user group name; meeting location, date, and time; and speaker name, bio, and presentation topic.
+This tag adds data user groups commonly need to post about, like the meeting location/date/time, speaker name/bio and presentation topic.
 
 ##### Note: This tag plugin is very early in its development. 
 
@@ -22,7 +22,9 @@ This tag adds typical data like the tech user group name; meeting location, date
 
 {% usergroups sponsor | %}
 
-{% usergroups google-maps %} <!-- tag by the-simian --> 
+{% usergroups google-maps | %} <!-- tag by the-simian --> 
+
+{% usergroups social | %}
 
 {% usergroups contact |  %}
 
