@@ -1,0 +1,28 @@
+{
+    "name": "hexo-usergroups",
+    "version": "0.0.1",
+    "description": "A Template for User Group Info",
+    "main": "usergroups.js",
+    "author": {
+        "name": "Amanda Harlin",
+        "url": "http://www.twitter.com/amandaharlin"
+    }
+}, 
+{
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/amandaharlin/hexo-usergroups.git"
+    },
+    "keywords": [
+        "user groups",
+        "community",
+        "tech groups",
+        "blog",
+        "hexo"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github/com/amandaharlin/hexo-usergroups/issues"
+    },
+    "homepage": "https://github.com/amandaharlin/hexo-usergroups"
+}
